@@ -1,0 +1,43 @@
+<!-- Header -->
+<div class="container-fluid m0 pad0">
+  <header class="navbar-fixed-top">
+    <h1>Project Details</h1>
+  </header>
+  <div class="formWrapper">
+    <div class="messages">
+      <div class="alert alert-danger" role="alert">
+        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+        <span class="sr-only">Error:</span> Enter a valid email address
+      </div>
+    </div>
+    <form>
+      <!-- Company Name -->
+      <div class="form-group">
+        <label for="inputCompanyName">Company Name</label>
+        <input type="text" class="form-control" id="inputCompanyName">
+      </div>
+      <!-- Project Title -->
+      <div class="form-group">
+        <label for="inputProjectTitle">Project Title</label>
+        <input type="text" class="form-control" id="inputProjectTitle">
+      </div>
+      <!-- Description -->
+      <div class="form-group">
+        <label for="inputDescription">Desciption</label>
+        <!-- <input type="textarea"  > -->
+        <textarea id="inputDescription" cols="20" class="form-control" rows="10"></textarea>
+      </div>
+      <!-- Area -->
+      <div class="form-group">
+        <label for="inputArea">Area (aq. ft)</label>
+        <input type="text" class="form-control" id="inputArea">
+      </div>
+      <!-- Min Duration-->
+      <div class="form-group">
+        <label for="inputMinDuration">Min Duration</label>
+        <input type="text" class="form-control" id="inputMinDuration">
+      </div>
+      <button type="submit" class="btn btn-primary" id="submitRequest"> Request Estimates</button>
+    </form>
+  </div>
+</div>
